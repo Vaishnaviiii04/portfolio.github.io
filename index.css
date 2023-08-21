@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color:rgba(222, 184, 135, 0.469);
+    
+    
+     color: white;
+     
+}
+    
+
+h1{
+    text-shadow: 2px 2px 4px #f6ecec;
+    font-style: italic;
+    color: rgb(223, 119, 87);
+    font-size: 70px;
+    padding-left: 2px;
+    margin-left: auto;
+    font-weight: bold;
+
+
+
+}
+.p1{
+    font-size: 20px;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+        background: url(bkg.jpg) no-repeat ;
+        background-size: cover;
+}
+.college.info{
+    margin-left: 20px;
+    
+}
+
+nav{
+    background-color: #f5cdb033;
+    font-size: 25px;
+    text-shadow: 2px 2px white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+.menu li{
+    margin-left: 20px;
+}
+.menu a{
+    color:rgb(4, 4, 4);
+    text-decoration: none;
+    font-weight: bold;
+}
+li a:hover{
+    background-color: white;
+    color: black;
+}
+.h2{
+    font-size: 50px;
+    font-style: italic;
+    color:brown;
+    margin-left:10px;
+    padding:10px
+
+    
+}
+.p2{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    background-color: rgba(245, 245, 220, 0.455);
+    margin:20px;
+    padding:10px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr:nth-child(even) {
+  background-color: #ef99196a;
+}
+tr:nth-child(odd){
+    background-color: rgba(245, 245, 220, 0.466);
+}
+.social-media img{
+    height: 100px;
+    margin: 0 30px;
+    padding:3px;
+}
+.logo img{
+    max-height: 160px;
+    margin-left:150%;
+    
+}
